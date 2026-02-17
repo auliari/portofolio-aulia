@@ -1,0 +1,149 @@
+:root {
+    --primary-color: #EEC1DD; 
+    --secondary-color: #969BE7; 
+    --accent-color: #db88a4; 
+    --text-color: white;    
+}
+.main-header {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    background-color: #969BE7;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* Sidebar */
+.main-sidebar {
+    background-color: #F4F2F8;
+}
+
+.brand-link {
+    background-color: var(--secondary-color) !important;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Background utama */
+.content-wrapper {
+    background: linear-gradient(135deg, white);
+    min-height: 100vh; /* Agar full */
+    padding: 100%;
+}
+
+/* Sidebar Menu */
+.nav-sidebar .nav-link {
+        color: var(--accent-color) !important;
+        transition: all 0.3s ease-in-out;
+        font-weight: 500;
+    }
+
+    .nav-sidebar .nav-link:hover {
+        background-color: rgba(223, 41, 41, 0.2) !important;
+        color: var(--secondary-color) !important;
+        font-weight: bold;
+    }
+
+.user-panel a {
+    color: var(--accent-color) !important;
+    font-weight: bold;
+}
+
+.user-panel span {
+    color: var(--secondary-color) !important;
+    font-weight: bold;
+}
+
+/* Efek elegan */
+.nav-sidebar .nav-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.sidebar-collapse .main-sidebar {
+    width: 0px !important;
+    transition: width 0.3s ease-in-out;
+}
+
+.sidebar-collapse .main-sidebar:hover {
+    width: 250px !important;
+}
+
+
+.sidebar-collapse .wrapper .content-wrapper {
+    margin-left: 0px !important;
+    transition: margin-left 0.3s ease-in-out;
+}
+.dashboard-card {
+        color: white;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+        backdrop-filter: blur(4px);
+        border: 1px solid rgba(230, 200, 230, 0.4);
+        background: linear-gradient(135deg, #d1d0ef, #eec1dd);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+    }
+    
+    .dashboard-card:hover {
+        transform: scale(1.05);
+    }
+    .dashboard-card i {
+        font-size: 30px;
+    }
+    .card {
+        max-width: 700px; /* Batasi lebar card */
+        padding: 20px;
+    }
+
+    .card-header {
+        font-size: 19px; /* Kecilkan ukuran font header */
+        padding: 8px;
+    }
+
+
+    .table td {
+        font-size: 14px; /* Kecilkan ukuran teks dalam tabel */
+        padding: 5px;
+    }
+
+
+    .badge-success {
+        background-color: #28a745;
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .sidebar-collapse .wrapper .content-wrapper {
+        margin-left: 0px !important;
+        transition: margin-left 0.3s ease-in-out;
+    }
+
+    .sidebar-collapse .wrapper .main-header {
+        margin-left: 0px !important;
+        transition: margin-left 0.3s ease-in-out;
+    }
+
+   
+.btn-pastel {
+    background-color: white;
+    color: #a777e3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.btn-pastel:hover {
+    background-color: #f0e1fa;
+}
+
+
+
+    
