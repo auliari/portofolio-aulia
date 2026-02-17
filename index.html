@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Aulia</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffd6ec, #ffeef7);
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #d63384;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: white;
+            background: #ff69b4;
+            padding: 10px 18px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            padding: 20px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Portofolio Aulia</h1>
+    <p>Websites & Applications that I have created</p>
+</header>
+
+<section class="container">
+
+    <div class="card">
+        <h3>Project Flower</h3>
+        <p>Website toko bunga dengan tampilan menarik.</p>
+        <a href="flower_aulia/">Lihat Project</a>
+    </div>
+
+    <div class="card">
+        <h3>Project Inventaris</h3>
+        <p>Sistem pengelolaan barang inventaris.</p>
+        <a href="inventaris_aulia/">Lihat Project</a>
+    </div>
+
+    <div class="card">
+        <h3>Project Laundry</h3>
+        <p>Aplikasi manajemen laundry sederhana.</p>
+        <a href="laundry_aulia/">Lihat Project</a>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Portofolio Aulia
+</footer>
+
+</body>
+</html>
